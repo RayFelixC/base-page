@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="background-color: #aad2d7 !important;">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="{{ asset('/img/logo.svg') }}" class="rounded-circle me-1" alt="Website logo" width="40" height="40">
+            <img src="{{ asset('/imgs/logo.svg') }}" class="rounded-circle me-1" alt="Website logo" width="40" height="40">
             {{ config('app.name', 'Laravel') }}
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

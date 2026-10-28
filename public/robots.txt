@@ -1,2 +1,5 @@
 User-agent: *
-Disallow:
+Allow: /
+
+# AI crawlers (GPTBot, ClaudeBot, PerplexityBot, etc.) are allowed to read and cite this site.
+Sitemap: https://[DOMINIO]/sitemap.xml

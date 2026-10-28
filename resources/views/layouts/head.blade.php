@@ -7,7 +7,14 @@
 
     <title>{{ config('app.name', 'Proyect') }}</title>
 
-    <link rel="icon" href="{{ asset('/favicon.svg?v=2') }}" type="image/svg+xml">
+    <!-- Private area: keep out of search engines -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Favicons -->
+    <link href="{{ asset('/imgs/favicons/favicon.svg') }}" rel="icon" type="image/svg+xml">
+    <link href="{{ asset('/imgs/favicons/favicon.ico?v=2') }}" rel="icon" type="image/x-icon">
+    <link href="{{ asset('/imgs/favicons/apple-touch-icon.png') }}" rel="apple-touch-icon" sizes="180x180">
+    <link href="{{ asset('/imgs/favicons/site.webmanifest') }}" rel="manifest">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

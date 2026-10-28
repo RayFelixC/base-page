@@ -2,7 +2,7 @@
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
             {{--{{ config('app.name', 'Laravel') }}--}}
-            <img src="{{ asset('/img/logo.svg') }}"
+            <img src="{{ asset('/imgs/logo.svg') }}"
                  {{--srcset="{{ asset('/img/gral/inicio/img-full-medical-tourism.webp') }} 1x,
                             {{ asset('/img/gral/inicio/img-tablet-medical-tourism.webp') }} 2x"--}}
                  class="rounded-circle" width="40" height="40" alt="Website logo">

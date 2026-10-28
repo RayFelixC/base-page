@@ -1,6 +1,6 @@
 # Base Laravel Page
 
-<img src="public/img/logo.svg" alt="Base Laravel Page logo" width="120">
+<img src="public/imgs/logo.svg" alt="Base Laravel Page logo" width="120">
 
 Plantilla base para desarrollar páginas y aplicaciones web modernas con **Laravel 10**, **Bootstrap 5** y **React 17**. Incluye autenticación lista para usar, UI responsiva y una landing de ejemplo montada en React — todo sobre una base limpia y escalable.
 
@@ -101,6 +101,17 @@ public/                   Assets compilados y favicon
 4. Compila con `npm run dev` (o `npm run watch` durante el desarrollo).
 
 El componente `Example.js` queda incluido pero deshabilitado como referencia extra.
+
+## 🚀 Antes de ir a producción
+
+Este template viene con placeholders. Reemplaza antes de publicar:
+
+1. **`[DOMINIO]`** por tu dominio real en:
+   - `resources/views/web/layouts/head.blade.php` (canonical y `og:url`)
+   - `public/sitemap.xml` (`<loc>`)
+   - `public/robots.txt` (línea `Sitemap:`)
+2. **`/og-image.png`** — crea la imagen (1200×630) en `public/` y agrega `og:image` / `twitter:image` en el head.
+3. Revisa `APP_NAME` y `APP_URL` en `.env`.
 
 ## 📄 Licencia
 

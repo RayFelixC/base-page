@@ -1,4 +1,8 @@
 {
+    "name": "base-page",
+    "description": "Laravel 10 + Bootstrap 5 + React 17 starter template with authentication and a ready-to-use landing page.",
+    "author": "Ray Felix",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "dev": "npm run development",

@@ -5,7 +5,7 @@
             <img src="{{ asset('/img/app/logo.webp') }}"
                  {{--srcset="{{ asset('/img/gral/inicio/img-full-medical-tourism.webp') }} 1x,
                             {{ asset('/img/gral/inicio/img-tablet-medical-tourism.webp') }} 2x"--}}
-                 class="img-fluid" width="300" height="50" alt="Logo de la pagina web" style="width:50px;">
+                 class="img-fluid" width="300" height="50" alt="Website logo" style="width:50px;">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

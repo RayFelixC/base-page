@@ -12,7 +12,11 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+// Mount the landing page component on #app-root
+require('./components/Landing');
+
+// Example component (kept available — re-enable along with the #example div in the view)
+//require('./components/Example');
 //require('./components/User');
 
 // Custom code

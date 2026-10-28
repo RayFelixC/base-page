@@ -1,9 +1,8 @@
 @extends('web.layouts.app')@section('content')
-    <section>
-       <div class="container">
-           <!-- React root DOM -->
-           <div id="example"></div>
+    <!-- React root DOM: landing page -->
+    <div id="app-root"></div>
 
-       </div>
-    </section>
+    {{-- Example component root (kept available — re-enable with require in resources/js/app.js):
+    <div id="example"></div>
+    --}}
 @endsection

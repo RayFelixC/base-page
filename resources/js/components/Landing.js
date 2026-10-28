@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const features = [
     {
-        title: 'Laravel 10 + PHP 8.1',
+        title: 'Laravel 10 + PHP 8.3',
         text: 'Routing, Eloquent ORM, Blade templating and Sanctum API authentication, ready out of the box.',
     },
     {

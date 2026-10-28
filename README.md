@@ -10,7 +10,7 @@ Plantilla base para desarrollar páginas y aplicaciones web modernas con **Larav
 
 ## ✨ Características
 
-- **Laravel 10 + PHP 8.1** — routing, Eloquent ORM, plantillas Blade y autenticación de API con Sanctum.
+- **Laravel 10 + PHP 8.3** — routing, Eloquent ORM, plantillas Blade y autenticación de API con Sanctum.
 - **Autenticación completa** — login, registro, recuperación de contraseña y verificación de email vía Laravel UI.
 - **Bootstrap 5 + Sass** — UI responsiva (mobile-first) con variables SCSS personalizables y Bootstrap Icons.
 - **React 17 integrado** — monta componentes interactivos en cualquier vista Blade con JSX y Laravel Mix.
@@ -24,7 +24,7 @@ Plantilla base para desarrollar páginas y aplicaciones web modernas con **Larav
 
 | Tecnología | Versión |
 |---|---|
-| PHP | ^8.1 |
+| PHP | ^8.3 |
 | Laravel | ^10.0 |
 | Bootstrap | ^5.3 |
 | React / ReactDOM | ^17.0.2 |
@@ -33,7 +33,7 @@ Plantilla base para desarrollar páginas y aplicaciones web modernas con **Larav
 
 ## 📋 Requisitos
 
-- PHP 8.1 o superior
+- PHP 8.3 o superior
 - Composer
 - Node.js 18+ y **npm** (el proyecto usa `package-lock.json`)
 

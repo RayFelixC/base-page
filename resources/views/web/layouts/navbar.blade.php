@@ -1,9 +1,8 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="background-color: #aad2d7 !important;">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
+            <img src="{{ asset('/img/logo.svg') }}" class="rounded-circle me-1" alt="Website logo" width="40" height="40">
             {{ config('app.name', 'Laravel') }}
-            {{--<img src="{{ asset('/img/app/logo.webp') }}" class="img-fluid" width="300" height="50" style="width:50px;"
-                 alt="Logo de la pagina web">--}}
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -33,8 +32,7 @@
                     @endif
                 @else
                     <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                           data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}
                         </a>
 
